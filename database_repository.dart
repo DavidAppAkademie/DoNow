@@ -7,6 +7,7 @@ abstract class DatabaseRepository {
   void uncheckTodo(String groupId, String todoId);
 }
 
+// TODO: finish implementation
 class MockDatabaseRepository implements DatabaseRepository {
   List<Todo> _todoList = [];
 
